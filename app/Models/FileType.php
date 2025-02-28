@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class FileType extends Model
 {
     use HasFactory;
+    protected $fillable = ['name','validity_period','time_unit'];
 }

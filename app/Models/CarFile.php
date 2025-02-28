@@ -10,4 +10,5 @@ class CarFile extends Model
     use HasFactory;
 
     protected $table = 'car_file';
+    protected $fillable = ['file_id','car_id'];
 }

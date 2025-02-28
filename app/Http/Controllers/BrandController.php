@@ -22,7 +22,7 @@ class BrandController extends Controller
         ]);
 
         Brand::create([
-            'nom' => $validatedData['nom'],
+            'name' => $validatedData['nom'],
         ]);
 
         return response()->json(['success' => 'Marque ajoutée avec succès.']);
